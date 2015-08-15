@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8849929E1B77F59A001A7BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8849929D1B77F59A001A7BBE /* AppDelegate.m */; };
+		884992A11B77F5C2001A7BBE /* NetworkUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 884992A01B77F5C2001A7BBE /* NetworkUtils.m */; };
+		884992A31B77F5DE001A7BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884992A21B77F5DE001A7BBE /* main.m */; };
+		884992A61B77F62F001A7BBE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 884992A41B77F62F001A7BBE /* MainMenu.xib */; };
+		884992A81B77F661001A7BBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884992A71B77F661001A7BBE /* Images.xcassets */; };
+		884992AC1B77F76E001A7BBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 884992AB1B77F76E001A7BBE /* Info.plist */; };
+		88DF284B1B76883900CA8900 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88DF284A1B76883900CA8900 /* Foundation.framework */; };
+		88DF284E1B768AF100CA8900 /* LogUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF284D1B768AF100CA8900 /* LogUtils.m */; };
+		88DF28541B76938800CA8900 /* CommandLineSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF28531B76938800CA8900 /* CommandLineSettings.m */; };
+		88DF28591B77E19C00CA8900 /* AppFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DF28581B77E19C00CA8900 /* AppFlow.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8849929C1B77F59A001A7BBE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8849929D1B77F59A001A7BBE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8849929F1B77F5C2001A7BBE /* NetworkUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtils.h; sourceTree = SOURCE_ROOT; };
+		884992A01B77F5C2001A7BBE /* NetworkUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtils.m; sourceTree = SOURCE_ROOT; };
+		884992A21B77F5DE001A7BBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		884992A51B77F62F001A7BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		884992A71B77F661001A7BBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = SOURCE_ROOT; };
+		884992AB1B77F76E001A7BBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		88DF281D1B765E7100CA8900 /* GoEuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoEuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DF284A1B76883900CA8900 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		88DF284C1B768AF100CA8900 /* LogUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogUtils.h; sourceTree = "<group>"; };
+		88DF284D1B768AF100CA8900 /* LogUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogUtils.m; sourceTree = "<group>"; };
+		88DF28521B76938800CA8900 /* CommandLineSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLineSettings.h; sourceTree = "<group>"; };
+		88DF28531B76938800CA8900 /* CommandLineSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLineSettings.m; sourceTree = "<group>"; };
+		88DF28551B769AA400CA8900 /* strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strings.h; sourceTree = "<group>"; };
+		88DF28561B7708E400CA8900 /* MacroUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroUtils.h; sourceTree = "<group>"; };
+		88DF28571B77E19C00CA8900 /* AppFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppFlow.h; sourceTree = "<group>"; };
+		88DF28581B77E19C00CA8900 /* AppFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppFlow.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88DF281A1B765E7100CA8900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DF284B1B76883900CA8900 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88DF28141B765E7100CA8900 = {
+			isa = PBXGroup;
+			children = (
+				88DF28571B77E19C00CA8900 /* AppFlow.h */,
+				88DF28581B77E19C00CA8900 /* AppFlow.m */,
+				88DF28561B7708E400CA8900 /* MacroUtils.h */,
+				88DF28551B769AA400CA8900 /* strings.h */,
+				88DF28521B76938800CA8900 /* CommandLineSettings.h */,
+				88DF28531B76938800CA8900 /* CommandLineSettings.m */,
+				88DF284C1B768AF100CA8900 /* LogUtils.h */,
+				88DF284D1B768AF100CA8900 /* LogUtils.m */,
+				88DF284A1B76883900CA8900 /* Foundation.framework */,
+				88DF281F1B765E7100CA8900 /* GoEuro */,
+				88DF281E1B765E7100CA8900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88DF281E1B765E7100CA8900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88DF281D1B765E7100CA8900 /* GoEuro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88DF281F1B765E7100CA8900 /* GoEuro */ = {
+			isa = PBXGroup;
+			children = (
+				884992A71B77F661001A7BBE /* Images.xcassets */,
+				884992A41B77F62F001A7BBE /* MainMenu.xib */,
+				8849929F1B77F5C2001A7BBE /* NetworkUtils.h */,
+				884992A01B77F5C2001A7BBE /* NetworkUtils.m */,
+				8849929C1B77F59A001A7BBE /* AppDelegate.h */,
+				8849929D1B77F59A001A7BBE /* AppDelegate.m */,
+				88DF28201B765E7100CA8900 /* Supporting Files */,
+			);
+			name = GoEuro;
+			path = SF90;
+			sourceTree = "<group>";
+		};
+		88DF28201B765E7100CA8900 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				884992AB1B77F76E001A7BBE /* Info.plist */,
+				884992A21B77F5DE001A7BBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88DF281C1B765E7100CA8900 /* GoEuro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88DF283A1B765E7100CA8900 /* Build configuration list for PBXNativeTarget "GoEuro" */;
+			buildPhases = (
+				88DF28191B765E7100CA8900 /* Sources */,
+				88DF281A1B765E7100CA8900 /* Frameworks */,
+				88DF281B1B765E7100CA8900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoEuro;
+			productName = SF90;
+			productReference = 88DF281D1B765E7100CA8900 /* GoEuro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88DF28151B765E7100CA8900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "kobayashi porcelain";
+				TargetAttributes = {
+					88DF281C1B765E7100CA8900 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 88DF28181B765E7100CA8900 /* Build configuration list for PBXProject "GoEuro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88DF28141B765E7100CA8900;
+			productRefGroup = 88DF281E1B765E7100CA8900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88DF281C1B765E7100CA8900 /* GoEuro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88DF281B1B765E7100CA8900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884992A61B77F62F001A7BBE /* MainMenu.xib in Resources */,
+				884992A81B77F661001A7BBE /* Images.xcassets in Resources */,
+				884992AC1B77F76E001A7BBE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88DF28191B765E7100CA8900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DF284E1B768AF100CA8900 /* LogUtils.m in Sources */,
+				884992A11B77F5C2001A7BBE /* NetworkUtils.m in Sources */,
+				8849929E1B77F59A001A7BBE /* AppDelegate.m in Sources */,
+				88DF28591B77E19C00CA8900 /* AppFlow.m in Sources */,
+				884992A31B77F5DE001A7BBE /* main.m in Sources */,
+				88DF28541B76938800CA8900 /* CommandLineSettings.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		884992A41B77F62F001A7BBE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884992A51B77F62F001A7BBE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88DF28381B765E7100CA8900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		88DF28391B765E7100CA8900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		88DF283B1B765E7100CA8900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = GoEuro;
+			};
+			name = Debug;
+		};
+		88DF283C1B765E7100CA8900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = GoEuro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88DF28181B765E7100CA8900 /* Build configuration list for PBXProject "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DF28381B765E7100CA8900 /* Debug */,
+				88DF28391B765E7100CA8900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88DF283A1B765E7100CA8900 /* Build configuration list for PBXNativeTarget "GoEuro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88DF283B1B765E7100CA8900 /* Debug */,
+				88DF283C1B765E7100CA8900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88DF28151B765E7100CA8900 /* Project object */;
+}
